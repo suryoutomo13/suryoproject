@@ -191,8 +191,8 @@ input{
 /* mambuat halaman responsive pada mobile */
 @media(min-width:321px) and (max-width:425px){
     section#box-profile{
-        width: 90px;
-        height: 630px;
+        width: 380px;
+        height: 680px;
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 30px;
@@ -225,8 +225,8 @@ input{
         border: none;
     }
     .description .button{
-        margin-right: 10%;
-        margin-left: 10%;
+        margin-right: 5%;
+        margin-left: 5%;
     }
     .img-profile .photo{
         left: 35px;
@@ -238,7 +238,11 @@ input{
         font-size: 14px;
     }
     section#input-form{
+        width: 380px;
+        height: 680px;
         margin-left: 5%;
         margin-right: 5%;
+        margin-top: 20px;
+        margin-bottom: 60px;
     }
 }
