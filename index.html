@@ -116,7 +116,20 @@
             function simpanForm(){
                 formMenu.style.display = "none";
                 var name = document.getElementById("inpName").value;
+                var role = document.getElementById("inpRole").value;
+                var available = document.getElementById("inpAvailability").value;
+                var age = document.getElementById("inpAge").value;
+                var location = document.getElementById("inpLocation").value;
+                var experience = document.getElementById("inpYears").value;
+                var email = document.getElementById("inpEmail").value;
+
                 document.getElementById(pName).innerHTML = name;
+                document.getElementById(pRole).innerHTML = role;
+                document.getElementById(pAvailable).innerHTML = available;
+                document.getElementById(pAge).innerHTML = age;
+                document.getElementById(pLocation).innerHTML = location;
+                document.getElementById(pExperience).innerHTML = experience;
+                document.getElementById(pEmail).innerHTML = email;
 
             }
 
